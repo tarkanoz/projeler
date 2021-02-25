@@ -1,6 +1,6 @@
 /*text*/
 
-.text-center{      /*mesela h1leri tek te stylendirmek yerine önce class ı açtım hangi h1 e istersem ona bu classı veririm daha sonra oluştururken*/
+.text-center{      
     text-align: center;
 }
 
