@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarkan Öztürk | Pprogramlama Eğitimleri</title>
+    <meta name="keywords" content="Python,Java,Javascript"/>
+    <meta name="description" content="Tarkan Öztürk | Pprogramlama Eğitimleri"/>
+    <!--Fonts Google-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!--Font Awesom-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!--tablet-->
+    <link rel="stylesheet"  media="(max-width:768px)" href="css/tablet.css">
+    <!--telefon-->
+    <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css">
+    
+</head>
+<body>
+ <header class="bg-dark-blue">
+
+    <div class="container">
+        <nav id="navbar">
+            <h1 class="heading-small">Tarkan Öztürk</h1>
+            <ul>
+               <li><a href="#home">Ana Sayfa</a></li>
+               <li><a href="#training">Eğitimler</a></li>
+               <li><a href="#courses">Kurslar</a></li>
+               <li><a href="#contact">İletişim</a></li>
+
+            </ul>
+        </nav>
+    </div>
+ </header>
+    <section id="home">
+        <img width="200px" height="200px" src="images/tarkanphoto.jpeg" alt="Tarkan Öztürk">
+
+        <div class="name text-center">
+            <h2 class="heading-big">Tarkan Öztürk</h2>
+            <p>computer Enginner | Yazılım Bilimi</p>
+        </div>
+
+        <a href="#courses" class="btn btn-primary">Kurslara Git</a>
+
+
+    </section>
+
+    <section id="training" class="bg-dark-blue">
+        <h3 class="text-center heading-medium">Eğitimler</h3>
+        <div class="items">
+           
+            <article class="item">
+            <i class="fa fa-pencil-alt"></i>   
+             <h3>Sınıf İçi Eğitimler</h3>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores eos officia provident. </p>   
+            </article>
+
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>   
+                 <h3>Online İçerikler</h3>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores eos officia provident. </p>   
+            </article>
+
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>   
+                 <h3>Konferanslar</h3>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores eos officia provident.</p>   
+            </article>
+        </div>
+    </section>
+
+    <section id="courses">
+        
+           <h3 class="text-center heading-medium ">Kurslar</h3> 
+           <div class="container">
+               <div class="courses">
+                   <!-- course1 -->
+                   <div class="course">
+                       <div class="course-image">
+                           <img class="ortak" src="images/python.jpg" alt="Python">
+                           <span>%90 İndirim</span>
+                       </div>
+                       
+                       <div class="course-info">
+                           <div class="title">
+                               (40+saat)Python|sıfırdan ileri seviye programlama
+
+                           </div>
+                           <div class="description"> (40+saat)Python|sıfırdan ileri seviye programlama</div>
+                           <div class="instructor">Tarkan Öztürk,Yazılım Bilimi</div>
+                           <div class="rating">4.6| (19990 oylama)</div>
+                       </div>
+
+                   </div>
+                   <!-- course2 -->
+                   <div class="course">
+                    <div class="course-image">
+                        <img class="ortak java" src="images/java.png" alt="Java">
+                        <span>%90 İndirim</span>
+                    </div>
+                    
+                    <div class="course-info">
+                        <div class="title">
+                            Komple Java Geliştirici Kursu
+
+                        </div>
+                        <div class="description"> Komple Java Geliştirici Kursu| Sıfırdan Java Öğrenin </div>
+                        <div class="instructor">Tarkan Öztürk,Yazılım Bilimi</div>
+                        <div class="rating">4.6| (7000 oylama)</div>
+                    </div>
+
+                </div>
+                <!-- course3 -->
+                <div class="course">
+                    <div class="course-image">
+                        <img class="ortak" src="images/javascript.png" alt="Javascript">
+                        <span>%90 İndirim</span>
+                    </div>
+                    
+                    <div class="course-info">
+                        <div class="title">
+                            Komple Modern Javascript Kursu
+
+                        </div>
+                        <div class="description">Komple Modern Javascript Kursu-ES6 </div>
+                        <div class="instructor">Tarkan Öztürk,Yazılım Bilimi</div>
+                        <div class="rating">4.7| (2000 oylama)</div>
+                    </div>
+
+                </div>
+               </div>
+           </div>
+
+    </section>
+    <footer id="contact" class="bg-dark-blue">   
+        
+        <div class="contact-form">
+            <form>
+                <h4 class="text-center heading-medium">Bana Ulaşın</h4>
+                
+                <div class="form-group">
+                    <label for="name">isim</label>
+                    <input type="text" class ="form-control"name="name" id="name" placeholder="isim">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">email</label>
+                    <input type="text" class ="form-control"name="email" id="email" placeholder="E-Mail">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">mesaj</label>
+                    <textarea name="mesagge" id="message" class="form-control mesaj" rows="5" placeholder="mesajınız.."></textarea>
+                </div>
+                <button  type="submit" class="btn btn-block form-control">Gönder</button>
+            </form>
+
+            <ul>
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+
+    </footer>
+</body>
+</html>
