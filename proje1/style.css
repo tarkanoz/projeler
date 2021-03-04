@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oi&family=Reggae+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-image: url("arkaplan.jpg");
+    height: 100vh;
+    background-size: 100% 100%; /*ekranı resimle tamamen kapladık*/
+}
+.container .navbar{
+    width: 100%;
+    height: 80px;
+    background: rgba(138, 151, 165, 0.8);
+}
+.navbar ul {
+    float: right;    /*sağa dayadık ul yi  float a tekrar bak*/
+    margin-right: 20px;
+}
+.navbar .logo{
+    display: inline-block;
+    margin-left:50px;
+    margin-top: 30px;
+}
+.navbar .logo a{
+    text-decoration: none;
+    color: white;   /* logoyu tasarladık */
+    font-size: 30px;
+    font-family: sans-serif;
+
+    
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+    
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Reggae One', cursive;
+    transition: .5s;
+   
+}
+.navbar ul li a:hover{
+    background: rgba(41, 7, 7,0.8);
+    border-radius: 2px;
+}
+
+.container .center{
+    position: absolute;
+    top: 50%;   /*dört satırıda ortalama için kullandık buraya tekrar bak*/
+    left: 50%;
+    transform: translate(-50%,-50%);
+    user-select: none;/*yazıyı kopyalanamaz yani seçilemez hale getirdik*/
+}
+
+.center h1{
+    color: black;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+
+}
+.center h2{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+
+}
+
+.center .button{
+    margin: 35px 280px; /*bu şekilde ortaşadı bir bak buraya*/
+}
+
+.button button {
+    height: 50px;
+    width: 150px;
+    font-weight: bold;
+    font-size: 18px;
+    color:#222020;
+    background: rgb(161, 149, 142);
+    border:solid 1px gray;
+    border-radius: 20px;
+    cursor: pointer;/*buttonun üstüne gelince imle. çıkardı*/
+    outline: none;
+    transition: .5s; /*button renk değişimi yavaşlattı*/
+}
+.button button:hover{
+    background: gray;
+}
+
+
+
