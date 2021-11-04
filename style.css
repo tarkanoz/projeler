@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+   
+}
+
+.container{
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+#title1{
+
+  font-family: comic sans ms;
+  font-size: 70px;
+  text-align: center;
+
+
+}
+
+#title2 {
+    font-family: comic sans ms;
+    text-align: center;
+}
+
+
+#inputtext{
+
+    margin-top: 10px;
+    width: 250px;
+    height: 35px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 2px rgb(0, 274,255);
+}
+
+#al{
+
+    background-color: rgb(132, 0,255);
+    cursor: pointer;
+    width: 40px;
+    height: 35px;
+    outline: none;
+    border:none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 2px rgb(0, 274,255);
+    transition: 1000ms;
+}
+
+#al:hover{
+    background-color: rgb(170, 84, 250);
+}
+
+
+#sil{
+    background-color: rgb(132, 0,255);
+    cursor: pointer;
+    width: 100px;
+    height: 35px;
+    outline: none;
+    border:none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 2px rgb(0, 274,255);
+    transition: 1000ms;
+
+}
+
+#sil:hover{
+    background-color: rgb(170, 84,250);
+}
+
+.toDo{
+
+
+    position: relative;
+    left: 42%; 
+    width: 200px;
+    
+}
+
+.prgcss{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    cursor: pointer;
+    margin: 0;
+    color: rgb(183,242,247);
+    border-radius: 20px;
+    transition: 1000ms;
+    padding: 5px;
+
+}
+
+.prgcss:hover{
+    background-color: rgb(132, 0,255);
+}
