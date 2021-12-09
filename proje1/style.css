@@ -15,7 +15,7 @@
     background: rgba(138, 151, 165, 0.8);
 }
 .navbar ul {
-    float: right;    /*sağa dayadık ul yi  float a tekrar bak*/
+    float: right;    
     margin-right: 20px;
 }
 .navbar .logo{
@@ -55,7 +55,7 @@
 
 .container .center{
     position: absolute;
-    top: 50%;   /*dört satırıda ortalama için kullandık buraya tekrar bak*/
+    top: 50%;   
     left: 50%;
     transform: translate(-50%,-50%);
     user-select: none;/*yazıyı kopyalanamaz yani seçilemez hale getirdik*/
@@ -79,7 +79,7 @@
 }
 
 .center .button{
-    margin: 35px 280px; /*bu şekilde ortaşadı bir bak buraya*/
+    margin: 35px 280px; 
 }
 
 .button button {
@@ -91,7 +91,7 @@
     background: rgb(161, 149, 142);
     border:solid 1px gray;
     border-radius: 20px;
-    cursor: pointer;/*buttonun üstüne gelince imle. çıkardı*/
+    cursor: pointer;
     outline: none;
     transition: .5s; /*button renk değişimi yavaşlattı*/
 }
